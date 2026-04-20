@@ -100,7 +100,7 @@ Client/
 
 ```bash
 git clone https://github.com/Nayan-Krishna-Ball/Chat-application-client.git
-cd quick-chat-app
+
 ```
 
 ### 2. Install dependencies
