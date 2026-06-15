@@ -3,7 +3,7 @@
 import axios from "axios";
 
 export const apiInstance = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://chat-application-server-render.onrender.com/",
 });
 
 apiInstance.interceptors.request.use((config) => {

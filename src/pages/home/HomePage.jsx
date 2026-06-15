@@ -6,7 +6,8 @@ import Header from "./components/Header";
 import SideBar from "./components/Sidebar";
 
 import { io } from "socket.io-client";
-const socket = io("http://localhost:3000");
+// const socket = io("http://localhost:3000");
+const socket = io("https://chat-application-server-render.onrender.com");
 
 export default function HomePage() {
   const { selectedChat, user } = useSelector((state) => state.userReducer);
